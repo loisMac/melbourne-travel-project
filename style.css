@@ -83,6 +83,7 @@ footer {
         font-weight: 700;
         font-size: 20px;
         line-height: 1.5;
+        
      }
 
      footer p {
@@ -95,6 +96,7 @@ footer {
 
      footer ul {
         padding: 0;
+        margin-right: 20px;
      }
 
      footer li {
@@ -131,4 +133,17 @@ footer {
         font-size: 10px;
         padding: 8px 16px;
     }
+
+    footer h3 {
+        font-size: 13px;
+    }
+
+    footer p {
+        font-size: 13px;
+    }
+    
+    footer ul {
+        font-size: 13px;
+    }
+
 }
