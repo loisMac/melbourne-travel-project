@@ -16,14 +16,59 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
+.grid-3-columns {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .grid-3-columns-first-narrow {
     grid-template-columns: 1fr 2fr 2fr;
 }
 
+.card {
+    background-color: white;
+    margin: 30px 0;
+}
+
+.card-header img {
+max-width: 50%;
+height: 125px;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.card-footer {
+    padding: 0 30px 30px;
+}
+
+.btn {
+    display: block;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 16px 10px;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
 section {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 100px;
+}
+
+section.secondary {
+    background-color: rgb(244, 244, 244);
+}
+
+.text-center {
+    text-align: center;
 }
 
 header {
@@ -93,8 +138,9 @@ main h2 {
     margin: 0;
 }
 
-main .image-responsive {
+.image-responsive {
     max-width: 100%;
+    display: block;
 }
 
 main h3 {
@@ -102,6 +148,20 @@ main h3 {
     font-size: 40px;
     line-height: 1.5;
     color: black;
+    margin: 0;
+}
+
+main h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1;
+    margin: 0;
+}
+
+main h5 {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1;
     margin: 0;
 }
 
