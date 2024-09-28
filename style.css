@@ -29,6 +29,10 @@ body {
     aspect-ratio: 1 /1;
 }
 
+.video-embed {
+    aspect-ratio: 16 / 9;
+}
+
 .card {
     background-color: white;
     margin: 30px 0;
@@ -36,6 +40,12 @@ body {
 
 .card-header.grid {
     grid-gap: 0;
+}
+
+.card .image-responsive {
+    width: 100%;
+    display: block;
+    aspect-ratio: 1 /1;
 }
 
 .card-body {
@@ -145,8 +155,9 @@ main h2 {
 .image-responsive {
     width: 100%;
     display: block;
-    aspect-ratio: 1 /1;
 }
+
+
 
 main h3 {
     font-weight: 700;
@@ -177,6 +188,23 @@ main p {
     line-height: 1.5;
     color: black;
     opacity: 0.7;
+}
+
+.video-section {
+    text-align: center;
+}
+
+.video-section h3 {
+    margin-bottom: 20px;
+}
+
+.instagram-section {
+    text-align: center;
+    background-color: rgb(244, 244, 244);
+}
+
+.instagram-section h3 {
+    margin-bottom: 20px;
 }
 
 footer {
@@ -251,7 +279,7 @@ footer {
         padding: 30px;
     }
 
-    .card-header img {
+    .card .image-responsive {
         display: none;
     }
 
