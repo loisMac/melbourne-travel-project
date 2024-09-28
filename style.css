@@ -259,6 +259,10 @@ footer {
         aspect-ratio: 16 / 9;
     }
 
+    .instagram-media {
+        margin: 0 auto;
+        display: block;
+    }
 
     footer h3 {
         font-size: 13px;
