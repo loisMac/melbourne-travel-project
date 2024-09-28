@@ -24,14 +24,18 @@ body {
     grid-template-columns: 1fr 2fr 2fr;
 }
 
+.embed {
+    width: 100%;
+    aspect-ratio: 1 /1;
+}
+
 .card {
     background-color: white;
     margin: 30px 0;
 }
 
-.card-header img {
-max-width: 50%;
-height: 125px;
+.card-header.grid {
+    grid-gap: 0;
 }
 
 .card-body {
@@ -139,8 +143,9 @@ main h2 {
 }
 
 .image-responsive {
-    max-width: 100%;
+    width: 100%;
     display: block;
+    aspect-ratio: 1 /1;
 }
 
 main h3 {
@@ -244,6 +249,14 @@ footer {
 
     section {
         padding: 30px;
+    }
+
+    .card-header img {
+        display: none;
+    }
+
+    .embed {
+        aspect-ratio: 16 / 9;
     }
 
 
